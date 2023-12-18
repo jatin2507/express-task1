@@ -9,5 +9,5 @@ route:  /api/retrive
 for:  dooing opration
 
 search user by 
-pass value in query of "id"
+pass value in query of "id".
 for sorting pass  query of  "sort" key and value of it is -1 and 1. 
