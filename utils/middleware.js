@@ -1,6 +1,6 @@
 const validateBody = (schema) => {
   return (req, res, next) => {
-    const { error, value } = schema.validate(req.body);
+    const { error, value } = schema.validate(req.query);
     if (error) {
       res.json({ error: true, data: error.message || "", code: 500, message: "Validation Error!" });
     } else {
